@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <input id="emailText" type="text" class="text-input" placeholder="Enter text here">
+        <button id="detectButton" type="submit" class="sub-btn">Detect</button>
+        <p id="errorMessage" class="error-message"></p>
+        <div class="scroll">
+            <table id="resultsTable">
+                <tr>
+                    <th>Email Text</th>
+                    <th>Spam?</th>
+                </tr>
+
+                <tbody id="resultsBody">
+                </tbody>
+            </table>
+        </div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
